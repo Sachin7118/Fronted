@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f0f0f;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: black;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.hero {
+  height: 400px;
+  background: linear-gradient(to right, #000, #ff6600);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero.small {
+  height: 200px;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.services, .programs {
+  padding: 50px;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background: #ff6600;
+}
+
+.img-card img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  background: #111;
+}
+
+.cta {
+  text-align: center;
+  padding: 40px;
+}
+
+button {
+  background: #ff6600;
+  border: none;
+  padding: 12px 25px;
+  color: white;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: black;
+}
